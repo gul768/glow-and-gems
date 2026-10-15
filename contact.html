@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story & Contact | Glow & Gems</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">
+    A LITTLE LUXURY, EVERY DAY ✦ DISCOVER YOUR GLOW
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Glow <span>&</span> Gems</a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a class="active" href="contact.html">Our Story & Contact</a>
+    </nav>
+    <a class="header-link" href="shop.html">Explore collection ↗</a>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div>
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h1>Made for your<br><em>kind of glow.</em></h1>
+        <p class="contact-lead">
+          Glow & Gems is a celebration of personal style:
+          beauty favourites, jewelry and accessories that help
+          you express the little things that make you, you.
+        </p>
+        <p>
+          We believe luxury doesn't need to be loud. Sometimes
+          it's the finishing touch, the daily ritual, or a piece
+          you reach for again and again.
+        </p>
+        <a class="button button-dark" href="shop.html">Explore the collection</a>
+      </div>
+
+      <div class="contact-image">
+        <img src="images/our-story.jpg" alt="Glow & Gems brand collection">
+        <div class="image-placeholder">
+          <span>YOUR STORY IMAGE</span>
+          <small>Add images/our-story.jpg</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-area">
+      <div class="contact-details">
+        <p class="eyebrow">LET'S TALK</p>
+        <h2>We'd love to<br><em>hear from you.</em></h2>
+        <p>
+          Questions about a product, an order, or just want to
+          say hello? Send us a note.
+        </p>
+
+        <div class="detail-line">
+          <span>EMAIL</span>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+
+        <div class="detail-line">
+          <span>FOLLOW ALONG</span>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            Instagram ↗
+          </a>
+        </div>
+
+        <small>Replace these sample contact details with your own.</small>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email"
+               placeholder="you@example.com" required>
+
+        <label for="subject">What can we help with?</label>
+        <select id="subject" name="subject">
+          <option>Product question</option>
+          <option>Order support</option>
+          <option>Collaboration</option>
+          <option>Something else</option>
+        </select>
+
+        <label for="message">Your message</label>
+        <textarea id="message" name="message" rows="5"
+                  placeholder="Write your message..." required></textarea>
+
+        <button class="button button-dark" type="submit">Prepare message</button>
+        <p class="form-message" id="contact-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html">Glow <span>&</span> Gems</a>
+    <p>Find your everyday sparkle.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <small>© <span class="year"></span> Glow & Gems. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
